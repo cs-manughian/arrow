@@ -14,7 +14,7 @@ function Dashboard() {
 const WelcomeMessage = () => (
   <>
     <div className='welcome'>
-      welcome to arrow...
+      welcome to arrow~ :)
     </div>
     <div className='instruction'>
       feel free to begin typing whatever comes to mind...
