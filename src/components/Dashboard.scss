@@ -1,0 +1,55 @@
+
+.dashboard {
+    margin: 5%;
+    color: #555;
+    text-align: center;
+    height: 100%;
+
+    textarea {
+        margin: 2em 0;
+        // border: 0;
+        width: 100%;
+        height: 100%;
+        resize: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .welcome,
+    .instruction {
+        font-size: 1.5em;
+        visibility: hidden;
+        -webkit-animation: 4s fadeIn;
+        animation: 4s fadeIn;
+        animation-timing-function: ease-in-out;
+    }
+
+    .instruction {
+        animation-delay: 4s;
+        // animation-fill-mode: forwards; /* Keep visible at end */
+        animation-timing-function: ease;
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+}
+
+/* Standard syntax */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+}
