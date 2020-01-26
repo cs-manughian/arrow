@@ -23,6 +23,7 @@ function Dashboard() {
         placeholder='Stream of consciousness...' 
         maxLength={2000}>
       </textarea>
+      <button>done</button>
     </div>
   )
 }
