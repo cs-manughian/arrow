@@ -5,7 +5,7 @@ function Dashboard() {
   return (
     <div className='dashboard'>
       <WelcomeMessage />
-      <textarea>
+      <textarea placeholder='Stream of consciousness...' maxLength={2000}>
       </textarea>
     </div>
   )
