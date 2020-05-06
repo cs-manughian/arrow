@@ -1,13 +1,14 @@
 
 .dashboard {
-    border-left: 0.5em solid #d9dfe9;
+    border-left: 0.5em solid #deeaff;
     padding: 2em;
     color: #555;
     text-align: center;
     height: 100%;
 
     textarea {
-        min-height: 50%;
+        // min-height: 50%;
+        min-height: 25%;
         margin: 2em 0;
         border: 0;
         border-left: 1px solid #ddd;
